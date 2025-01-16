@@ -1,4 +1,5 @@
-
+from utils.project_structure import create_project_structure
+from utils.component import add_component
 import argparse
 
 
@@ -20,9 +21,9 @@ def main():
     args = parser.parse_args()
 
     if args.command == "init":
-        print(f"Init command executed with args: {args.project_name}")
+        create_project_structure(args.project_name)
     elif args.command == "add":
-        print("Add command executed with args: ", args.component_type, args.component_name, args.project_name)
+        add_component(args.project_name, args.component_type, args.component_name)
     else:
         parser.print_help()
 
