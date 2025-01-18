@@ -16,6 +16,10 @@ def create_project_structure(project_name):
                 else:
                     folder_path = os.path.join(project_name, folder, subfolder)
                     os.makedirs(folder_path, exist_ok=True)
+                    # make init file for each folder
+                    init_file_path = os.path.join(folder_path, '__init__.py')
+                    with open(init_file_path, 'w') as f:
+                        f.write(f"# {subfolder.capitalize()} package for the project")
 
         print(f"Project '{project_name}' created successfully!")
     except Exception as e:
