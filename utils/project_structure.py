@@ -5,7 +5,10 @@ from utils.constants import PROJECT_STRUCTURE, TEMPLATE_CONTENTS
 def create_project_structure(project_name):
     """Create the project structure."""
     try:
-        os.makedirs(project_name, exist_ok=True)
+        if os.path.exists(project_name):
+            print(f"Error: Project '{project_name}' already exists.")
+            return
+        os.makedirs(project_name)
 
         for folder, subfolders in PROJECT_STRUCTURE.items():
             for subfolder in subfolders:

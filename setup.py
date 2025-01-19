@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="fastapi-cli",
+    name="fastapi_blueprint",
     version="1.0.0",
     description="A CLI tool to generate file structure for FastAPI projects.",
     author="Sadegh Ranjbar",
@@ -11,7 +11,7 @@ setup(
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "fastapi-cli=fastapi_cli:main",
+            "fastapi-blueprint=fastapi_cli:main",
         ],
     },
     classifiers=[
