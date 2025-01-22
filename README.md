@@ -1,7 +1,7 @@
-# FastAPI CLI
+# FastAPI Blueprint
 [![PyPI version](https://badge.fury.io/py/your-package-name.svg)](https://pypi.org/project/fastapi-blueprint/)
 
-FastAPI CLI is a command-line tool designed to help developers quickly generate a structured project file system for FastAPI applications. With this tool, you can jumpstart your FastAPI project with a clean, modular, and scalable architecture.
+FastAPI Blueprint is a command-line tool designed to help developers quickly generate a structured project file system for FastAPI applications. With this tool, you can jumpstart your FastAPI project with a clean, modular, and scalable architecture.
 
 ## Features
 
@@ -20,7 +20,7 @@ FastAPI CLI is a command-line tool designed to help developers quickly generate 
 To install FastAPI CLI, use pip:
 
 ```bash
-pip install fastapi-cli
+pip install fastapi-blueprint
 ```
 
 ## Usage
@@ -30,7 +30,7 @@ pip install fastapi-cli
 Run the following command to create a new FastAPI project:
 
 ```bash
-fastapi-cli init my_project
+fastapi-blueprint init my_project
 ```
 
 This will generate the following structure:
@@ -52,14 +52,14 @@ my_project/
 You can add individual components like routers or models:
 
 ```bash
-fastapi-cli add router users
+fastapi-blueprint add router users
 ```
 
 This will create a new router file under the `routers/` directory.
 
 ### Customize Templates
 
-FastAPI CLI allows you to define your own templates for files and structures. Simply modify the default templates in the `~/.fastapi-cli/templates/` directory.
+FastAPI Blueprint allows you to define your own templates for files and structures. Simply modify the default templates in the `~/.fastapi-blueprint/templates/` directory.
 
 ## Contributing
 
@@ -77,5 +77,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Acknowledgments
 
-FastAPI CLI is inspired by the simplicity and scalability of FastAPI itself. Thanks to the FastAPI community for building such an amazing framework!
+FastAPI Blueprint is inspired by the simplicity and scalability of FastAPI itself. Thanks to the FastAPI community for building such an amazing framework!
 
