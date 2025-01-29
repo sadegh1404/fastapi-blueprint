@@ -1,6 +1,6 @@
-from utils.project_structure import create_project_structure
-from utils.component import add_component
 import argparse
+from fastapi_blueprint.utils.component import add_component
+from fastapi_blueprint.utils.project_structure import create_project_structure
 
 
 def main():

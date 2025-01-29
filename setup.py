@@ -7,11 +7,11 @@ setup(
     author="Sadegh Ranjbar",
     author_email="sadegh.r1404@gmail.com",
     packages=find_packages(),
-    include_package_data=True,
+    long_description=open("README.md").read(),
     install_requires=[],
     entry_points={
         "console_scripts": [
-            "fastapi-blueprint=fastapi_cli:main",
+            "fastapi-blueprint=fastapi_blueprint.cli:main",
         ],
     },
     classifiers=[
