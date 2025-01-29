@@ -1,5 +1,5 @@
 import os
-from utils.constants import PROJECT_STRUCTURE, TEMPLATE_CONTENTS
+from fastapi_blueprint.utils.constants import PROJECT_STRUCTURE, TEMPLATE_CONTENTS
 
 
 def create_project_structure(project_name):
