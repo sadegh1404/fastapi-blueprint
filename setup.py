@@ -2,12 +2,13 @@ from setuptools import setup, find_packages
 
 setup(
     name="fastapi_blueprint",
-    version="1.0.0",
+    version="1.0.2",
     description="A CLI tool to generate file structure for FastAPI projects.",
     author="Sadegh Ranjbar",
     author_email="sadegh.r1404@gmail.com",
     packages=find_packages(),
-    long_description=open("README.md").read(),
+    long_description=open("README.rst", encoding="utf-8").read(),
+    long_description_content_type="text/x-rst",
     install_requires=[],
     entry_points={
         "console_scripts": [
