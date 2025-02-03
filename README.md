@@ -1,5 +1,5 @@
 # FastAPI Blueprint
-[![PyPI version](https://badge.fury.io/py/your-package-name.svg)](https://pypi.org/project/fastapi-blueprint/)
+[![PyPI version](https://d25lcipzij17d.cloudfront.net/badge.svg?c=eyJhbGciOiJub25lIn0.eyJiIjp7IngiOmZhbHNlLCJ0IjoidjZlIiwibCI6InB5cGkgcGFja2FnZSIsInIiOiIxLjAuMiJ9fQ)](https://pypi.org/project/fastapi-blueprint/)
 [![PyPI Downloads](https://static.pepy.tech/badge/fastapi-blueprint)](https://pepy.tech/projects/fastapi-blueprint)
 
 FastAPI Blueprint is a command-line tool designed to help developers quickly generate a structured project file system for FastAPI applications. With this tool, you can jumpstart your FastAPI project with a clean, modular, and scalable architecture.
