@@ -1,7 +1,7 @@
 FastAPI Blueprint
 =================
 
-.. image:: https://badge.fury.io/py/your-package-name.svg
+.. image:: https://d25lcipzij17d.cloudfront.net/badge.svg?c=eyJhbGciOiJub25lIn0.eyJiIjp7IngiOmZhbHNlLCJ0IjoidjZlIiwibCI6InB5cGkgcGFja2FnZSIsInIiOiIxLjAuMiJ9fQ
     :target: https://pypi.org/project/fastapi-blueprint/
 
 .. image:: https://static.pepy.tech/badge/fastapi-blueprint
